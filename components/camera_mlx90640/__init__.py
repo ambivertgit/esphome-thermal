@@ -34,7 +34,7 @@ CONF_FILTER_LEVEL = "filter_level"
 
 
 
-DEPENDENCIES = ['esp32','web_server_base']
+DEPENDENCIES = ['esp8266','web_server_base']
 
 mlx90640_ns = cg.esphome_ns.namespace("mlx90640_app")
 #MLX90640 = mlx90640_ns.class_("MLX90640", i2c.I2CDevice, cg.PollingComponent)
